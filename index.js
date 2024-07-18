@@ -4,10 +4,10 @@ const { Client } = require('pg');
 
 require('dotenv').config();
 
-"thegorilla_bot"
 
 
-const bot = new Telegraf(process.env.BOT_TOKEN)
+
+const bot = new Telegraf(process.BOT_TOKEN)
 
 
 
