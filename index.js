@@ -7,7 +7,7 @@ require('dotenv').config();
 
 
 
-const bot = new Telegraf(process.BOT_TOKEN)
+const bot = new Telegraf(process.env.BOT_TOKEN);
 
 
 
